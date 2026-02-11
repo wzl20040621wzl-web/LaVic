@@ -1,0 +1,819 @@
+[
+    {
+        "agentKey": "AGENTKEY_229080990304628736",
+        "agentDesc": "ç”¨äºŽå•†ä¸šå®¢è¿çš„å¤§åž‹å›ºå®šç¿¼èˆªç©ºè¿è¾“è½½å…·.",
+        "entitySignature": "",
+        "agentName": "æ°‘ç”¨èˆªç©ºå®¢æœºï¼ˆæ ‡å‡†ï¼‰",
+        "agentNameI18n": "æ°‘ç”¨èˆªç©ºå®¢æœºï¼ˆæ ‡å‡†ï¼‰",
+        "agentPath": null,
+        "i18nLabels": [],
+        "agentKeyword": "mhkj",
+        "agentUsageLabel": [],
+        "modelUrlSlim": "",
+        "modelUrlFat": "",
+        "modelUrlMedium": "",
+        "modelUrlPAK": "",
+        "modelUrlSymbols": [
+            {
+                "symbolSeries": 1,
+                "symbolName": "http://192.168.31.218:9000/lavic/9cbb689f-44ef-428f-9106-212d67d53f8d.png",
+                "thumbnail": "http://192.168.31.218:9000/lavic/1108fa4b-3104-4197-8a99-a81c08a42809.jpg"
+            }
+        ],
+        "modelAbstracted": [
+            {
+                "abstProfileKeyword": "",
+                "abstProfileFrame": 0,
+                "abstProfileResolution": 13,
+                "abstProfileLonLat": [],
+                "abstProfileCarteXY": [],
+                "abstHeights": [],
+                "abstHeightResolution": 12
+            }
+        ],
+        "clusterComms": {
+            "clusterOptionalPlugins": []
+        },
+        "subagents": [],
+        "freelanceable": false,
+        "freelanceableDynamics": [],
+        "locatable": false,
+        "locatableDynamics": [],
+        "navigatable": false,
+        "navigatableDynamics": [],
+        "missionable": true,
+        "missionableDynamics": [
+            {
+                "dynPluginName": "iagnt_dynamics_carrier_based_aircraft",
+                "dynKeyword": "iagnt_dynamics_carrier_based_aircraft",
+                "dynAsDefault": true,
+                "dynSettings": {
+                    "pluginName": "iagnt_dynamics_carrier_based_aircraft",
+                    "pluginNote": "CarrierBasedAircraft",
+                    "pluginNoteI18n": "èˆ°è½½æœº",
+                    "pluginSignature": "dynamics_idmYYQvtaaNfUlW1krZE",
+                    "pluginDefaultSettings": "{\"freqdistPlugin\":null,\"freqdistPluginSettings\":null,\"dynSettings\":{\"V_max\":270,\"V_min\":200,\"a_max\":3,\"d_slow\":800,\"landing_distance\":50,\"modeSettings\":[{\"modeIndex\":0,\"modeKeyword\":\"EjectTakeOff\",\"modeName\":\"EjectTakeOff\",\"modeNameI18n\":\"å¼¹å°„èµ·é£ž\",\"modeParamType\":\"Location\"},{\"modeIndex\":1,\"modeKeyword\":\"ReturnCarrier\",\"modeName\":\"ReturnCarrier\",\"modeNameI18n\":\"è¿”èˆªæ¯èˆ°\",\"modeParamType\":\"\"},{\"modeIndex\":2,\"modeKeyword\":\"Loitering\",\"modeName\":\"8FormLoitering\",\"modeNameI18n\":\"8å­—ç›˜æ—‹\",\"modeParamType\":\"\"},{\"modeIndex\":3,\"modeKeyword\":\"GoAround\",\"modeName\":\"GoAround\",\"modeNameI18n\":\"å¤é£ž\",\"modeParamType\":\"\"},{\"modeIndex\":20,\"modeKeyword\":\"NewHeading\",\"modeName\":\"NewHeading\",\"modeNameI18n\":\"æ‰§è¡Œèˆªç‚¹\",\"modeParamType\":\"Waypoint\"},{\"modeIndex\":21,\"modeKeyword\":\"NewHeadings\",\"modeName\":\"NewHeadings\",\"modeNameI18n\":\"æ‰§è¡Œèˆªç‚¹åˆ—\",\"modeParamType\":\"Waypoints\"},{\"modeIndex\":22,\"modeKeyword\":\"PolygonHeadings\",\"modeName\":\"PolygonHeadings\",\"modeNameI18n\":\"æ‰§è¡Œå¤šè¾¹å½¢èˆªç‚¹\",\"modeParamType\":\"Waypoints\"},{\"modeIndex\":31,\"modeKeyword\":\"ChangePlatformParams\",\"modeName\":\"ChangePlatformParams\",\"modeNameI18n\":\"æ”¹å˜å¹³å°å‚æ•°\",\"modeParamType\":\"DoubleVector\"}],\"omega_max\":0.52,\"platform_alt\":0,\"platform_azimuth\":12,\"platform_lat\":21.87409170824246,\"platform_lon\":117.98597037375748,\"platform_speed\":15},\"evidences\":null,\"prejudgmentModels\":null,\"paramsfilter\":null}"
+                }
+            }
+        ],
+        "operatable": true,
+        "useIb": false,
+        "cognitiveConfig": {
+            "plugins": []
+        },
+        "stopCond": {
+            "stopCondType": 0,
+            "vicinityDist": 0,
+            "loopTimes": 0,
+            "isStopped": false
+        },
+        "agentType": "Instagent",
+        "fldmds": [],
+        "waypoints": [
+            {
+                "wpsKey": "229330831625961473",
+                "wpsUsage": "",
+                "wpsKeyword": "routekj",
+                "wpsFrame": 0,
+                "wps": [
+                    {
+                        "wpsCore": [
+                            114.8011195,
+                            24.2594386,
+                            1000.0,
+                            1.0,
+                            0.0
+                        ],
+                        "useExt": 0,
+                        "speed": 0.0,
+                        "roll": 0.0,
+                        "pitch": 0.0,
+                        "yaw": 0.0,
+                        "yawEx": 0.0
+                    },
+                    {
+                        "wpsCore": [
+                            115.9262376,
+                            25.5954393,
+                            1000.0,
+                            1.0,
+                            10.0
+                        ],
+                        "useExt": 0,
+                        "speed": 0.0,
+                        "roll": 0.0,
+                        "pitch": 0.0,
+                        "yaw": 0.0,
+                        "yawEx": 0.0
+                    },
+                    {
+                        "wpsCore": [
+                            116.9053124,
+                            24.2866445,
+                            1000.0,
+                            1.0,
+                            20.0
+                        ],
+                        "useExt": 0,
+                        "speed": 0.0,
+                        "roll": 0.0,
+                        "pitch": 0.0,
+                        "yaw": 0.0,
+                        "yawEx": 0.0
+                    },
+                    {
+                        "wpsCore": [
+                            116.1845925,
+                            23.300524,
+                            1000.0,
+                            1.0,
+                            30.0
+                        ],
+                        "useExt": 0,
+                        "speed": 0.0,
+                        "roll": 0.0,
+                        "pitch": 0.0,
+                        "yaw": 0.0,
+                        "yawEx": 0.0
+                    },
+                    {
+                        "wpsCore": [
+                            115.4711285,
+                            23.6114297,
+                            1000.0,
+                            1.0,
+                            40.0
+                        ],
+                        "useExt": 0,
+                        "speed": 0.0,
+                        "roll": 0.0,
+                        "pitch": 0.0,
+                        "yaw": 0.0,
+                        "yawEx": 0.0
+                    }
+                ],
+                "wpsGenPOIs": [],
+                "wpsPathPlanner": "",
+                "wpsGenFences": [],
+                "wpsGenTimeConsumed": 0,
+                "wpsTalk": []
+            }
+        ],
+        "pois": [],
+        "fences": [],
+        "vardefs": [],
+        "varpool": [],
+        "axns": [
+            {
+                "scriptId": "action_228954837858222080",
+                "axnKeyword": "PYdAk44n",
+                "axnName": "èµ·é£ž",
+                "axnNameI18n": "èµ·é£ž",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/59050a48-216b-4d63-b435-aa729e2328a8åŠ¨ä½œ.png",
+                "vardefs": [
+                    {
+                        "varKeyword": "Location",
+                        "varName": "Location",
+                        "varSig": "Location",
+                        "varNameI18n": "Location",
+                        "i18nLabels": [],
+                        "varType": "Location",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    },
+                    {
+                        "varKeyword": "speed",
+                        "varName": "speed",
+                        "varSig": "speed",
+                        "varNameI18n": "speed",
+                        "i18nLabels": [],
+                        "varType": "Number",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [
+                            "240"
+                        ],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    }
+                ],
+                "scriptLang": 0,
+                "axnVersion": 0,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "num.push_back(Location.lon);",
+                    "num.push_back(Location.lat);",
+                    "num.push_back(Location.hgt);",
+                    "num.push_back(speed);",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 0, num);",
+                    "print(\"test\");"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "ä»Žè·‘é“åŠ é€Ÿè‡³å†³æ–­é€Ÿåº¦åŽæŠ¬è½®å‡ç©ºï¼Œè‡ªåŠ¨æ‰§è¡Œæ ‡å‡†ç¦»åœºç¨‹åºã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_228954838150250496",
+                "axnKeyword": "ZOaURlJP",
+                "axnName": "é™è½",
+                "axnNameI18n": "é™è½",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/cafc957e-c5da-40d1-9e77-9024ebc642f7åŠ¨ä½œ.png",
+                "vardefs": [],
+                "scriptLang": 0,
+                "axnVersion": 0,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "num.push_back(1.0);",
+                    "num.push_back(2.0);",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 1, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "æŒ‰è¿›è¿‘ç¨‹åºä¸‹é™é«˜åº¦ï¼Œè§¦åœ°åŽå¯åŠ¨åæŽ¨å’Œåˆ¹è½¦ç›´è‡³æ»‘è¡Œé€Ÿåº¦ã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_229024054770163712",
+                "axnKeyword": "GoAround",
+                "axnName": "å¤é£ž",
+                "axnNameI18n": "å¤é£ž",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/d9869c60-83d0-4659-8329-3e62679eb57fåŠ¨ä½œ.png",
+                "vardefs": [],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "num.push_back(1.0);",
+                    "num.push_back(2.0);",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 3, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "åœ¨è¿›è¿‘é˜¶æ®µå› å¤©æ°”ã€è·‘é“å ç”¨ç­‰å¼‚å¸¸è§¦å‘ï¼Œè‡ªåŠ¨ä¸­æ­¢é™è½å¹¶æ‰§è¡Œçˆ¬å‡æŒ‡ä»¤ï¼Œé‡æ–°åŠ å…¥ç­‰å¾…èˆªçº¿ã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_229046837842821120",
+                "axnKeyword": "ReturnCarrier",
+                "axnName": "è¿”èˆª",
+                "axnNameI18n": "è¿”èˆª",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/da7c0233-07be-4c85-8dc6-2e5d488fd576åŠ¨ä½œ.png",
+                "vardefs": [],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "num.push_back(1.0);",
+                    "num.push_back(2.0);",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 1, num, true);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "å› æœºæ¢°æ•…éšœæˆ–å¤©æ°”æ¶åŒ–æ‰‹åŠ¨è§¦å‘ï¼Œè‡ªåŠ¨è§„åˆ’æœ€ä¼˜è·¯å¾„è¿”å›žèµ·é£žæœºåœºã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_229024028715671552",
+                "axnKeyword": "Taxiing",
+                "axnName": "æ»‘è¡Œ",
+                "axnNameI18n": "æ»‘è¡Œ",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/4afefb9c-d5be-49ec-8f82-5335e7361f6fåŠ¨ä½œ.png",
+                "vardefs": [],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var modsigsrch := smd_select_with(fldid, FMD_WKMD_SEARCH);smd_operate_orient(fldid, modsigsrch , pitch, azimuth, FMD_WKMD_SEARCH);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "æŽ§åˆ¶å®¢æœºåœ¨åœ°é¢ä½Žé€Ÿç§»åŠ¨ï¼Œç”¨äºŽè¿›å‡ºåœæœºåªã€è·‘é“åˆ‡æ¢ç­‰åœºæ™¯ã€‚ï¼ˆå¼€å‘ä¸­ï¼‰",
+                "access": 0
+            },
+            {
+                "scriptId": "action_229024065893982208",
+                "axnKeyword": "NewHeading",
+                "axnName": "æ‰§è¡Œèˆªç‚¹",
+                "axnNameI18n": "æ‰§è¡Œèˆªç‚¹",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/713f9e96-0635-40a9-9752-eb4f6deacfd5åŠ¨ä½œ.png",
+                "vardefs": [
+                    {
+                        "varKeyword": "Location",
+                        "varName": "Location",
+                        "varSig": "Location",
+                        "varNameI18n": "Location",
+                        "i18nLabels": [],
+                        "varType": "Location",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    }
+                ],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "num.push_back(Location.lon);",
+                    "num.push_back(Location.lat);",
+                    "num.push_back(Location.hgt);",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 20, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "é£žæŠµå•ä¸ªæŒ‡å®šå¯¼èˆªç‚¹ï¼Œç”¨äºŽèˆªè·¯æ ¡æ­£æˆ–ä¸´æ—¶è·¯å¾„è°ƒæ•´ã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_229024087749320704",
+                "axnKeyword": "NewHeadings",
+                "axnName": "æ‰§è¡Œèˆªç‚¹åˆ—",
+                "axnNameI18n": "æ‰§è¡Œèˆªç‚¹åˆ—",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/22827cdf-fa47-4ac4-97f0-a2083caa82f0åŠ¨ä½œ.png",
+                "vardefs": [
+                    {
+                        "varKeyword": "params",
+                        "varName": "params",
+                        "varSig": "params",
+                        "varNameI18n": "params",
+                        "i18nLabels": [],
+                        "varType": "Waypoints",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    }
+                ],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "var wps = Agent.actions[\"NewHeadings\"][\"params\"].get();",
+                    "for (var i = 0; i < wps.size(); ++i) ",
+                    "{",
+                    "    var wp = wps[i];",
+                    "    num.push_back(wp.lon);",
+                    "    num.push_back(wp.lat);",
+                    "    num.push_back(wp.hgt);",
+                    "}",
+                    "",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 21, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "æŒ‰é¡ºåºé£žè¶Šå¤šä¸ªèˆªç‚¹ç»„æˆçš„èˆªçº¿ï¼Œæ”¯æŒå¯¼å…¥çœŸå®žèˆªè·¯æ•°æ®ã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_229024091653300224",
+                "axnKeyword": "PolygonHeadings",
+                "axnName": "æ‰§è¡Œå¤šè¾¹å½¢èˆªç‚¹",
+                "axnNameI18n": "æ‰§è¡Œå¤šè¾¹å½¢èˆªç‚¹",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/5bdd67f4-5210-415d-afee-20380d215f45åŠ¨ä½œ.png",
+                "vardefs": [
+                    {
+                        "varKeyword": "params",
+                        "varName": "params",
+                        "varSig": "params",
+                        "varNameI18n": "params",
+                        "i18nLabels": [],
+                        "varType": "Waypoints",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    }
+                ],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "var wps = Agent.actions[\"PolygonHeadings\"][\"params\"].get();",
+                    "for (var i = 0; i < wps.size(); ++i) ",
+                    "{",
+                    "    var wp = wps[i];",
+                    "    num.push_back(wp.lon);",
+                    "    num.push_back(wp.lat);",
+                    "    num.push_back(wp.hgt);",
+                    "}",
+                    "",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 22, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "æ²¿é—­åˆå¤šè¾¹å½¢è·¯å¾„å¾ªçŽ¯é£žè¡Œï¼Œé€‚ç”¨äºŽè®­ç»ƒé£žè¡Œã€‚",
+                "access": 1
+            },
+            {
+                "scriptId": "action_229024105512198144",
+                "axnKeyword": "ChangePlatformParams",
+                "axnName": "ä¿®æ”¹å¹³å°ä½ç½®",
+                "axnNameI18n": "ä¿®æ”¹å¹³å°ä½ç½®",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/3e55661d-cdaf-44ff-8364-0aca8b0f1b9eåŠ¨ä½œ.png",
+                "vardefs": [
+                    {
+                        "varKeyword": "Location",
+                        "varName": "Location",
+                        "varSig": "Location",
+                        "varNameI18n": "Location",
+                        "i18nLabels": [],
+                        "varType": "Location",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    },
+                    {
+                        "varKeyword": "azimuth",
+                        "varName": "azimuth",
+                        "varSig": "azimuth",
+                        "varNameI18n": "azimuth",
+                        "i18nLabels": [],
+                        "varType": "Number",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    },
+                    {
+                        "varKeyword": "speed",
+                        "varName": "speed",
+                        "varSig": "speed",
+                        "varNameI18n": "speed",
+                        "i18nLabels": [],
+                        "varType": "Number",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    }
+                ],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "var loc = Agent.actions[\"ChangePlatformParams\"][\"Location\"].get();",
+                    "var azh = Agent.actions[\"ChangePlatformParams\"][\"azimuth\"].get();",
+                    "var spd = Agent.actions[\"ChangePlatformParams\"][\"speed\"].get();",
+                    "",
+                    "num.push_back(loc.lon);",
+                    "num.push_back(loc.lat);",
+                    "num.push_back(loc.hgt);",
+                    "num.push_back(azh);",
+                    "num.push_back(spd);",
+                    "",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 31, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "ä»…æ›´æ–°å®¢æœºåœ¨ä»¿çœŸåœºæ™¯ä¸­çš„ å¯è§†åŒ–åæ ‡ï¼ˆçº¯æ˜¾ç¤ºå±‚è°ƒæ•´ï¼‰ï¼Œä¸æ”¹å˜å…¶å¯¼èˆªçŠ¶æ€ã€èˆªå‘åŠé£žè¡Œé€»è¾‘ã€‚",
+                "access": 0
+            },
+            {
+                "scriptId": "action_229024115885760512",
+                "axnKeyword": "ChangePlatformParamsToUpdateCurLocation",
+                "axnName": "ä¿®æ”¹å¹³å°ä½ç½®ä¸”æ›´æ–°è‡ªèº«ä½ç½®",
+                "axnNameI18n": "ä¿®æ”¹å¹³å°ä½ç½®ä¸”æ›´æ–°è‡ªèº«ä½ç½®",
+                "i18nLabels": [],
+                "axnIcon": "http://192.168.31.218:9000/lavic/db6b2ba7-d841-4d2d-ab35-04869795aad7åŠ¨ä½œ.png",
+                "vardefs": [
+                    {
+                        "varKeyword": "Location",
+                        "varName": "Location",
+                        "varSig": "Location",
+                        "varNameI18n": "Location",
+                        "i18nLabels": [],
+                        "varType": "Location",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    },
+                    {
+                        "varKeyword": "azimuth",
+                        "varName": "azimuth",
+                        "varSig": "azimuth",
+                        "varNameI18n": "azimuth",
+                        "i18nLabels": [],
+                        "varType": "Number",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    },
+                    {
+                        "varKeyword": "speed",
+                        "varName": "speed",
+                        "varSig": "speed",
+                        "varNameI18n": "speed",
+                        "i18nLabels": [],
+                        "varType": "Number",
+                        "stdCode": "",
+                        "varSchema": {},
+                        "varDefault": [],
+                        "access": 1,
+                        "varDecorator": "",
+                        "varDecoratorSettings": {},
+                        "varIndexCode": 0,
+                        "varUnit": null
+                    }
+                ],
+                "scriptLang": 0,
+                "axnVersion": 1,
+                "axnActivated": true,
+                "axnRunningPlan": 0,
+                "axnAsync": false,
+                "axnRunningConds": [
+                    "return true;"
+                ],
+                "axnScript": [
+                    "var num = Numbers();",
+                    "var loc = Agent.actions[\"ChangePlatformParamsToUpdateCurLocation\"][\"Location\"].get();",
+                    "var azh = Agent.actions[\"ChangePlatformParamsToUpdateCurLocation\"][\"azimuth\"].get();",
+                    "var spd = Agent.actions[\"ChangePlatformParamsToUpdateCurLocation\"][\"speed\"].get();",
+                    "",
+                    "num.push_back(loc.lon);",
+                    "num.push_back(loc.lat);",
+                    "num.push_back(loc.hgt);",
+                    "num.push_back(azh);",
+                    "num.push_back(spd);",
+                    "",
+                    "Agent.dyn_set_mode(\"iagnt_dynamics_carrier_based_aircraft\", 32, num);"
+                ],
+                "axnViewDetails": [
+                    {
+                        "axnViewName": "",
+                        "axnViewKeyword": ""
+                    }
+                ],
+                "scriptTalk": [],
+                "actionTypeOODA": "",
+                "axnDesc": "åŒæ­¥æ›´æ–°å®¢æœºçš„å¯è§†åŒ–åæ ‡ä¸Žåº•å±‚ç‰©ç†ä½ç½®ï¼Œå¼ºåˆ¶å°†å…¶ç©ºé—´çŠ¶æ€åˆ‡æ¢åˆ°ç›®æ ‡ç‚¹ï¼Œä¸­æ–­å½“å‰æ‰€æœ‰ä»»åŠ¡ã€‚",
+                "access": 0
+            }
+        ],
+        "tsmarks": [],
+        "agentJetdsCodes": [
+            {
+                "agentJetdsCodeSig": "agntjetds_229261370967101462",
+                "agentJetdsCode": "AWC",
+                "agentJetdsCodeEx": "",
+                "relatedActions": []
+            }
+        ],
+        "oodas": [],
+        "bts": [],
+        "commStackConfig": {
+            "refFrameEnginesSummary": [],
+            "commStacks": []
+        },
+        "agentCamp": "camp_225128854667210752",
+        "agentCampName": "å¯¼è°ƒæ–¹",
+        "doctrines": [],
+        "ncycles": 1,
+        "evalIndexes": [],
+        "audit": {
+            "createdById": "229023529002975232",
+            "createdBy": "LaViCæ¨¡åž‹ç®¡ç†å‘˜(Admin)",
+            "createdOn": "2025-06-09 15:14:53",
+            "updatedOn": "2025-07-22 10:00:13",
+            "updatedBy": "LaViCç®¡ç†å‘˜(Admin)",
+            "updatedById": "229023529002975232",
+            "startTime": "2025-06-09 15:14:53",
+            "startBy": null,
+            "startById": null,
+            "stopTime": null,
+            "stopBy": null,
+            "stopById": null
+        },
+        "isDelete": false,
+        "order": 1750729013269,
+        "agentCoreFunc": "æ°‘ç”¨èˆªç©ºå®¢æœºä»¿çœŸæ¨¡åž‹èƒ½å¤Ÿé«˜ç²¾åº¦æ¨¡æ‹ŸçœŸå®žè¿è¡ŒçŽ¯å¢ƒä¸‹æ°‘èˆªå®¢æœºçš„å…¨æµç¨‹è‡ªä¸»é£žè¡Œè¡Œä¸ºï¼ŒåŒ…æ‹¬èµ·é£žã€é™è½ã€å¤é£žã€è¿”èˆªã€æ»‘è¡Œï¼Œç²¾ç¡®æ‰§è¡Œèˆªç‚¹ä¸Žæ‰§è¡Œèˆªç‚¹åˆ—æž„æˆçš„é£žè¡Œè®¡åˆ’ï¼Œå®Œæˆæ‰§è¡Œå¤šè¾¹å½¢èˆªç‚¹ç­‰å¤æ‚ä»»åŠ¡èˆªçº¿ï¼Œå¹¶æ”¯æŒåŠ¨æ€ä¿®æ”¹å¹³å°ä½ç½®ã€‚è¯¥æ¨¡åž‹é›†æˆé£žè¡Œç®¡ç†ä¸Žè‡ªåŠ¨æŽ§åˆ¶ç³»ç»Ÿï¼Œæ”¯æŒåŸºç¡€ç©ºä¸­äº¤é€šæŒ‡ä»¤çš„äº¤äº’ï¼Œä¸ºé£žè¡ŒæŽ§åˆ¶ç®—æ³•éªŒè¯ã€èˆªè·¯è§„åˆ’ä¼˜åŒ–ã€å¤æ‚ä»»åŠ¡ï¼ˆå¦‚å¤šè¾¹å½¢åŒºåŸŸä½œä¸šï¼‰çš„æµ‹è¯•æä¾›é«˜æ•ˆã€å¯æŽ§ã€å¯é‡å¤çš„ä»¿çœŸçŽ¯å¢ƒã€‚",
+        "agentCommonlyUsed": [],
+        "agentUsage": "1. æ–°å»ºå®žä¾‹ åœ¨ä»¿çœŸç³»ç»Ÿä¸­ï¼Œæ ¹æ®æ°‘ç”¨èˆªç©ºå®¢æœºæ¨¡åž‹æ–°å»ºä¸€ä¸ªæ°‘ç”¨èˆªç©ºå®¢æœºå®žä¾‹ã€‚\n2. æ–°å»ºæƒ³å®š æž„å»ºä¸€ä¸ªæƒ³å®šï¼Œç”¨äºŽéªŒè¯æ°‘ç”¨èˆªç©ºå®¢æœºçš„è¿è¡Œé€»è¾‘ã€‚\n3. å°†å®žä¾‹åŠ å…¥æƒ³å®š å°†å·²åˆ›å»ºçš„æ°‘ç”¨èˆªç©ºå®¢æœºå®žä¾‹æ·»åŠ åˆ°å½“å‰æƒ³å®šä¸­ï¼Œæ”¯æŒåŒæ—¶æ·»åŠ å¤šä¸ªæ°‘ç”¨èˆªç©ºå®¢æœºä»¥æ¨¡æ‹Ÿå¤æ‚ç©ºä¸­çŽ¯å¢ƒã€‚\n4. å¯åŠ¨ä»¿çœŸ ç‚¹å‡»ç•Œé¢ä¸Šçš„ â€œå¯åŠ¨ä»¿çœŸâ€ æŒ‰é’®ï¼Œåˆå§‹åŒ–ä»¿çœŸçŽ¯å¢ƒå¹¶åŠ è½½æ°‘ç”¨èˆªç©ºå®¢æœºå®žä½“ï¼Œå‡†å¤‡æ‰§è¡Œä»»åŠ¡ã€‚\n5. å¯åŠ¨è¿è¡Œ åœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œå¯åŠ¨â€ æŒ‰é’®ï¼Œå†ç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†ç­‰å¾…èµ·é£žã€‚\n6. æ°‘ç”¨èˆªç©ºå®¢æœºè¿è¡Œ åœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œèµ·é£žâ€ æŒ‰é’®ï¼Œé€‰ä¸­ç›®æ ‡ç‚¹ï¼Œå†ç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†ç«‹å³èµ·é£žã€‚\n7. æ‰§è¡Œèˆªç‚¹ï¼Œåœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œæ‰§è¡Œèˆªç‚¹â€ æŒ‰é’®ï¼ŒæŒ‡å®šèˆªç‚¹ï¼Œç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†æ‰§è¡ŒæŒ‡å®šèˆªç‚¹ã€‚\n8. æ‰§è¡Œèˆªçº¿ï¼Œåœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œæ‰§è¡Œèˆªçº¿â€ æŒ‰é’®ï¼ŒæŒ‡å®šèˆªçº¿ï¼Œç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†æ‰§è¡ŒæŒ‡å®šèˆªçº¿ã€‚\n9. ä¿®æ”¹å¹³å°ä½ç½®ï¼Œåœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œä¿®æ”¹å¹³å°ä½ç½®â€ æŒ‰é’®ï¼ŒæŒ‡å®šè¿”èˆªç‚¹ï¼Œç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†æ›´æ–°è¿”èˆªç‚¹ã€‚\n10. æ‰§è¡Œå¤šè¾¹å½¢èˆªçº¿ï¼Œåœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œæ‰§è¡Œå¤šè¾¹å½¢èˆªçº¿â€ æŒ‰é’®ï¼ŒæŒ‡å®šå¤šè¾¹å½¢èˆªçº¿ï¼Œç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†æ‰§è¡ŒæŒ‡å®šå¤šè¾¹å½¢èˆªçº¿ï¼Œä¸”å¾ªçŽ¯æ‰§è¡Œã€‚\n11. è¿”èˆªï¼Œåœ¨åŠ¨ä½œé¢æ¿ä¸­ç‚¹å‡» â€œè¿”èˆªâ€ æŒ‰é’®ï¼Œç‚¹å‡» â€œæ‰§è¡Œâ€ ç¡®è®¤ï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºå°†è¿”å›žè¿”èˆªç‚¹ã€‚\n12. ç»“æŸä»¿çœŸ ç‚¹å‡» â€œåœæ­¢â€ æŒ‰é’®ï¼Œä»¿çœŸç³»ç»Ÿå°†ç»ˆæ­¢è¿è¡Œï¼Œæ°‘ç”¨èˆªç©ºå®¢æœºçŠ¶æ€æ¸…é›¶ï¼Œå¯é‡æ–°é…ç½®æˆ–é€€å‡ºä»¿çœŸã€‚",
+        "agentVideoUrl": null,
+        "relatedSimulation": [
+            {
+                "simulationSig": "sostep_229092119409725440",
+                "simulationName": "å¾®æƒ³å®š_èˆªç©ºé£žè¡Œå™¨",
+                "iconUrl": "http://192.168.31.218:9000/lavic/cac5bca7-e9d9-431f-8dcf-06d96da6b548",
+                "simulationNote": "å¾®æƒ³å®š_èˆªç©ºé£žè¡Œå™¨",
+                "simulationStatus": "Unstart",
+                "audit": {
+                    "createdById": "229023529002975232",
+                    "createdBy": "LaViCç®¡ç†å‘˜(Admin)",
+                    "createdOn": "2025-06-27 10:01:58",
+                    "updatedOn": "2025-06-27 10:01:58",
+                    "updatedBy": "LaViCç®¡ç†å‘˜(Admin)",
+                    "updatedById": "229023529002975232",
+                    "startTime": "2025-07-07 10:11:21",
+                    "startBy": "LaViCç®¡ç†å‘˜(Admin)",
+                    "startById": "229023529002975232",
+                    "stopTime": null,
+                    "stopBy": null,
+                    "stopById": null
+                }
+            }
+        ],
+        "useCount": 2,
+        "agentTag": 0,
+        "smdComponentKey": [],
+        "model": {
+            "sourceAgentKey": "",
+            "sig": "asset_229249929322438671",
+            "description": null,
+            "modelName": "æ°‘ç”¨èˆªç©ºå®¢æœºï¼ˆæ ‡å‡†ï¼‰",
+            "icon": null,
+            "thumbnail": {
+                "url": "æ°‘ç”¨èˆªç©ºå®¢æœºï¼ˆæ ‡å‡†ï¼‰/1108fa4b-3104-4197-8a99-a81c08a42809.jpg",
+                "selected": false,
+                "mutexType": null,
+                "fileSize": null,
+                "bucket": "lavic",
+                "ossSig": "1108fa4b-3104-4197-8a99-a81c08a42809.jpg"
+            },
+            "introduction": "ç”¨äºŽå•†ä¸šå®¢è¿çš„å¤§åž‹å›ºå®šç¿¼èˆªç©ºè¿è¾“è½½å…·.",
+            "abilityDescription": null,
+            "mapIconType": null,
+            "mapIconUrl": {
+                "url": "æ°‘ç”¨èˆªç©ºå®¢æœºï¼ˆæ ‡å‡†ï¼‰/9cbb689f-44ef-428f-9106-212d67d53f8d.png",
+                "selected": false,
+                "mutexType": null,
+                "fileSize": null,
+                "bucket": "lavic",
+                "ossSig": "9cbb689f-44ef-428f-9106-212d67d53f8d.png"
+            },
+            "pakUrl": null,
+            "audit": null,
+            "isDel": false,
+            "dimModelUrls": [
+                {
+                    "url": "æ°‘ç”¨èˆªç©ºå®¢æœºï¼ˆæ ‡å‡†ï¼‰/28f023fb-5320-4f20-8925-f003c437c20e.glb",
+                    "selected": true,
+                    "mutexType": null,
+                    "fileSize": null,
+                    "bucket": "lavic",
+                    "ossSig": "28f023fb-5320-4f20-8925-f003c437c20e.glb"
+                }
+            ]
+        }
+    }
+]
