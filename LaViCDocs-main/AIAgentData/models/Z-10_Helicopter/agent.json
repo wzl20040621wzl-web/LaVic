@@ -1,0 +1,75 @@
+[
+    {
+        "agentKey": "AGENTKEY_Z-10_GENERATED_001",
+        "agentDesc": "Z-10 Attack Helicopter simulation model, configured with Simple EVTOL dynamics.",
+        "entitySignature": "",
+        "agentName": "直-10武装直升机",
+        "agentNameI18n": "Z-10 Attack Helicopter",
+        "agentPath": null,
+        "i18nLabels": [],
+        "agentKeyword": "z10_helicopter",
+        "agentUsageLabel": [],
+        "thumbnail": "Z-10_Helicopter/Z-10_Helicopter.png",
+        "modelUrlSlim": "Z-10_Helicopter/Z-10_Helicopter.glb",
+        "modelUrlFat": "Z-10_Helicopter/Z-10_Helicopter.glb",
+        "modelUrlMedium": "",
+        "modelUrlPAK": "",
+        "modelUrlSymbols": [
+            {
+                "symbolSeries": 1,
+                "symbolName": "Z-10_Helicopter/Z-10_Helicopter_mil.png",
+                "thumbnail": "Z-10_Helicopter/Z-10_Helicopter.png"
+            }
+        ],
+        "modelAbstracted": [
+            {
+                "abstProfileKeyword": "",
+                "abstProfileFrame": 0,
+                "abstProfileResolution": 13,
+                "abstProfileLonLat": [],
+                "abstProfileCarteXY": [],
+                "abstHeights": [],
+                "abstHeightResolution": 12
+            }
+        ],
+        "clusterComms": {
+            "clusterOptionalPlugins": []
+        },
+        "subagents": [],
+        "freelanceable": false,
+        "freelanceableDynamics": [],
+        "locatable": false,
+        "locatableDynamics": [],
+        "navigatable": false,
+        "navigatableDynamics": [],
+        "missionable": true,
+        "missionableDynamics": [
+            {
+                "dynPluginName": "iagnt_dynamics_evtol_simple",
+                "dynKeyword": "iagnt_dynamics_evtol_simple",
+                "dynAsDefault": true,
+                "dynSettings": {
+                    "pluginName": "iagnt_dynamics_evtol_simple",
+                    "pluginNote": "EVTOL/Simple",
+                    "pluginNoteI18n": "简单EVTOL模型",
+                    "pluginSignature": "dynamics_NOswxcfhq0j8ZnxkIMNU",
+                    "pluginDefaultSettings": "{\"freqdistPlugin\":null,\"freqdistPluginSettings\":null,\"dynSettings\":{\"V_max\":27,\"V_min\":10,\"a_max\":0.3,\"d_slow\":800,\"h_slow\":20,\"modeSettings\":[{\"modeIndex\":0,\"modeKeyword\":\"VerticalTakeOff\",\"modeName\":\"VerticalTakeOff\",\"modeNameI18n\":\"垂直起飞\",\"modeParamType\":\"Location\"},{\"modeIndex\":1,\"modeKeyword\":\"ReturnPlatform\",\"modeName\":\"ReturnPlatform\",\"modeNameI18n\":\"返航垂降平台\",\"modeParamType\":\"\"},{\"modeIndex\":2,\"modeKeyword\":\"Hover\",\"modeName\":\"Hover\",\"modeNameI18n\":\"悬停\",\"modeParamType\":\"\"},{\"modeIndex\":3,\"modeKeyword\":\"Resume\",\"modeName\":\"Resume\",\"modeNameI18n\":\"恢复\",\"modeParamType\":\"\"},{\"modeIndex\":20,\"modeKeyword\":\"NewHeading\",\"modeName\":\"NewHeading\",\"modeNameI18n\":\"执行航点\",\"modeParamType\":\"Waypoint\"},{\"modeIndex\":21,\"modeKeyword\":\"NewHeadings\",\"modeName\":\"NewHeadings\",\"modeNameI18n\":\"执行航点列\",\"modeParamType\":\"Waypoints\"},{\"modeIndex\":22,\"modeKeyword\":\"PolygonHeadings\",\"modeName\":\"PolygonHeadings\",\"modeNameI18n\":\"执行多边形航点\",\"modeParamType\":\"Waypoints\"},{\"modeIndex\":31,\"modeKeyword\":\"ChangePlatformParams\",\"modeName\":\"ChangePlatformParams\",\"modeNameI18n\":\"改变平台参数\",\"modeParamType\":\"DoubleVector\"}],\"omega_max\":0.52,\"platform_alt\":0,\"platform_azimuth\":0,\"platform_lat\":0,\"platform_lon\":0,\"platform_speed\":0},\"evidences\":null,\"prejudgmentModels\":null,\"paramsfilter\":null}"
+                }
+            }
+        ],
+        "operatable": true,
+        "useIb": false,
+        "cognitiveConfig": {
+            "plugins": []
+        },
+        "stopCond": {
+            "stopCondType": 0,
+            "vicinityDist": 0,
+            "loopTimes": 0,
+            "isStopped": false
+        },
+        "agentType": "Instagent",
+        "fldmds": [],
+        "waypoints": []
+    }
+]

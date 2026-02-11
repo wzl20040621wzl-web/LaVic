@@ -1,0 +1,74 @@
+[
+    {
+        "agentKey": "AGENTKEY_EA18G_GROWLER_001",
+        "agentDesc": "The Boeing EA-18G Growler is an American carrier-based electronic warfare aircraft, a specialized version of the two-seat Boeing F/A-18F Super Hornet.",
+        "entitySignature": "",
+        "agentName": "EA-18G咆哮者",
+        "agentNameI18n": "EA-18G咆哮者",
+        "agentPath": null,
+        "i18nLabels": [],
+        "agentKeyword": "mhkj",
+        "agentUsageLabel": [],
+        "modelUrlSlim": "EA-18G_Growler/EA-18G_Growler_AI_Rodin.glb",
+        "modelUrlFat": "EA-18G_Growler/EA-18G_Growler_AI_Rodin.glb",
+        "modelUrlMedium": "",
+        "modelUrlPAK": "",
+        "modelUrlSymbols": [
+            {
+                "symbolSeries": 1,
+                "symbolName": "EA-18G_Growler/EA-18G_Growler_mil.png",
+                "thumbnail": "EA-18G_Growler/EA-18G_Growler.png"
+            }
+        ],
+        "modelAbstracted": [
+            {
+                "abstProfileKeyword": "",
+                "abstProfileFrame": 0,
+                "abstProfileResolution": 13,
+                "abstProfileLonLat": [],
+                "abstProfileCarteXY": [],
+                "abstHeights": [],
+                "abstHeightResolution": 12
+            }
+        ],
+        "clusterComms": {
+            "clusterOptionalPlugins": []
+        },
+        "subagents": [],
+        "freelanceable": false,
+        "freelanceableDynamics": [],
+        "locatable": false,
+        "locatableDynamics": [],
+        "navigatable": false,
+        "navigatableDynamics": [],
+        "missionable": true,
+        "missionableDynamics": [
+            {
+                "dynPluginName": "iagnt_dynamics_carrier_based_aircraft",
+                "dynKeyword": "iagnt_dynamics_carrier_based_aircraft",
+                "dynAsDefault": true,
+                "dynSettings": {
+                    "pluginName": "iagnt_dynamics_carrier_based_aircraft",
+                    "pluginNote": "CarrierBasedAircraft",
+                    "pluginNoteI18n": "舰载机",
+                    "pluginSignature": "dynamics_idmYYQvtaaNfUlW1krZE",
+                    "pluginDefaultSettings": "{\"freqdistPlugin\":null,\"freqdistPluginSettings\":null,\"dynSettings\":{\"V_max\":270,\"V_min\":200,\"a_max\":3,\"d_slow\":800,\"landing_distance\":50,\"modeSettings\":[{\"modeIndex\":0,\"modeKeyword\":\"EjectTakeOff\",\"modeName\":\"EjectTakeOff\",\"modeNameI18n\":\"弹射起飞\",\"modeParamType\":\"Location\"},{\"modeIndex\":1,\"modeKeyword\":\"ReturnCarrier\",\"modeName\":\"ReturnCarrier\",\"modeNameI18n\":\"返航母舰\",\"modeParamType\":\"\"},{\"modeIndex\":2,\"modeKeyword\":\"Loitering\",\"modeName\":\"8FormLoitering\",\"modeNameI18n\":\"8字盘旋\",\"modeParamType\":\"\"},{\"modeIndex\":3,\"modeKeyword\":\"GoAround\",\"modeName\":\"GoAround\",\"modeNameI18n\":\"复飞\",\"modeParamType\":\"\"},{\"modeIndex\":20,\"modeKeyword\":\"NewHeading\",\"modeName\":\"NewHeading\",\"modeNameI18n\":\"执行航点\",\"modeParamType\":\"Waypoint\"},{\"modeIndex\":21,\"modeKeyword\":\"NewHeadings\",\"modeName\":\"NewHeadings\",\"modeNameI18n\":\"执行航点列\",\"modeParamType\":\"Waypoints\"},{\"modeIndex\":22,\"modeKeyword\":\"PolygonHeadings\",\"modeName\":\"PolygonHeadings\",\"modeNameI18n\":\"执行多边形航点\",\"modeParamType\":\"Waypoints\"},{\"modeIndex\":31,\"modeKeyword\":\"ChangePlatformParams\",\"modeName\":\"ChangePlatformParams\",\"modeNameI18n\":\"改变平台参数\",\"modeParamType\":\"DoubleVector\"}],\"omega_max\":0.52,\"platform_alt\":0,\"platform_azimuth\":12,\"platform_lat\":21.87409170824246,\"platform_lon\":117.98597037375748,\"platform_speed\":15},\"evidences\":null,\"prejudgmentModels\":null,\"paramsfilter\":null}"
+                }
+            }
+        ],
+        "operatable": true,
+        "useIb": false,
+        "cognitiveConfig": {
+            "plugins": []
+        },
+        "stopCond": {
+            "stopCondType": 0,
+            "vicinityDist": 0,
+            "loopTimes": 0,
+            "isStopped": false
+        },
+        "agentType": "Instagent",
+        "fldmds": [],
+        "waypoints": []
+    }
+]
